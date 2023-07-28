@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <style>
+      li a{
+        display: block;
+
+      }
+      ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        width: 20%;
+        background-color: rgb(100, 4, 4);
+        position: fixed;
+        height: 100%;
+        border: 2px solid black;
+      }
+     li a{
+        text-decoration: none;
+        margin: 10px;
+        padding: 10px;
+        color: white;
+        
+     }
+     li a:hover{
+        background-color: hotpink;
+     }
+     li a.active{
+        background-color: rgb(127, 230, 241);
+        color: red;
+     }
+     li{
+        text-align: center;
+        border-bottom: 2px solid black;
+
+     }
+     li :last-child{
+        border-bottom: none;
+     }
+    </style>
+</head>
+<body>
+   
+        <table>
+            <ul>
+                <li><a href="home" class="active">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="gallary">Gallery</a></li>s
+                <li><a href="event">Event</a></li>
+
+            </ul>
+        </table>
+       
+</body>
+</html>
